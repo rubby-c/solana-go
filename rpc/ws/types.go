@@ -18,8 +18,8 @@
 package ws
 
 import (
-	stdjson "encoding/json"
 	"fmt"
+	stdjson "github.com/goccy/go-json"
 	"math/rand"
 	"net/http"
 	"time"

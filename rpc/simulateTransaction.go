@@ -18,10 +18,10 @@ package rpc
 
 import (
 	"context"
-	"encoding/base64"
 	"fmt"
+	"github.com/cristalhq/base64"
 
-	"github.com/gagliardetto/solana-go"
+	"github.com/rubby-c/solana-go"
 )
 
 type SimulateTransactionResponse struct {

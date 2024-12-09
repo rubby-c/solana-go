@@ -2,12 +2,12 @@ package addresslookuptable
 
 import (
 	"bytes"
-	"encoding/base64"
+	"github.com/cristalhq/base64"
 	"math"
 	"testing"
 
 	bin "github.com/gagliardetto/binary"
-	"github.com/gagliardetto/solana-go"
+	"github.com/rubby-c/solana-go"
 	"github.com/stretchr/testify/require"
 )
 

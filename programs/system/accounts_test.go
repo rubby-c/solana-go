@@ -15,11 +15,11 @@
 package system
 
 import (
-	"encoding/base64"
+	"github.com/cristalhq/base64"
 	"testing"
 
 	bin "github.com/gagliardetto/binary"
-	"github.com/gagliardetto/solana-go"
+	"github.com/rubby-c/solana-go"
 	"github.com/stretchr/testify/assert"
 )
 

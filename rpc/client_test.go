@@ -20,9 +20,9 @@ package rpc
 import (
 	"bytes"
 	"context"
-	"encoding/base64"
-	stdjson "encoding/json"
 	"fmt"
+	"github.com/cristalhq/base64"
+	stdjson "github.com/goccy/go-json"
 	"math/big"
 	"testing"
 
@@ -31,7 +31,7 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/gagliardetto/solana-go"
+	"github.com/rubby-c/solana-go"
 )
 
 func TestClient_GetAccountInfo(t *testing.T) {

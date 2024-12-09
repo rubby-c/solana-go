@@ -15,7 +15,7 @@
 package ws
 
 import (
-	// stdjson "encoding/json"
+	// stdjson "github.com/goccy/go-json"
 	jsoniter "github.com/json-iterator/go"
 )
 

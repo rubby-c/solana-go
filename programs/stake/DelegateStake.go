@@ -18,9 +18,9 @@ import (
 	"fmt"
 
 	bin "github.com/gagliardetto/binary"
-	"github.com/gagliardetto/solana-go"
-	"github.com/gagliardetto/solana-go/text/format"
 	"github.com/gagliardetto/treeout"
+	"github.com/rubby-c/solana-go"
+	"github.com/rubby-c/solana-go/text/format"
 )
 
 type DelegateStake struct {

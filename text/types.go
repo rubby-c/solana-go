@@ -15,10 +15,10 @@
 package text
 
 import (
-	"encoding/base64"
 	"encoding/binary"
 	"encoding/hex"
 	"fmt"
+	"github.com/cristalhq/base64"
 	"math/big"
 )
 

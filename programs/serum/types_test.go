@@ -18,15 +18,15 @@
 package serum
 
 import (
-	"encoding/base64"
 	"encoding/binary"
 	"encoding/hex"
 	"fmt"
+	"github.com/cristalhq/base64"
 	"io/ioutil"
 	"testing"
 
 	bin "github.com/gagliardetto/binary"
-	"github.com/gagliardetto/solana-go"
+	"github.com/rubby-c/solana-go"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

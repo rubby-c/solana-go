@@ -16,12 +16,12 @@ package main
 
 import (
 	"context"
-	"encoding/base64"
 	"fmt"
+	"github.com/cristalhq/base64"
 
 	bin "github.com/gagliardetto/binary"
-	"github.com/gagliardetto/solana-go"
-	"github.com/gagliardetto/solana-go/rpc"
+	"github.com/rubby-c/solana-go"
+	"github.com/rubby-c/solana-go/rpc"
 )
 
 func main() {

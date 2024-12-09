@@ -17,8 +17,8 @@ package vault
 import (
 	"context"
 	"crypto/rand"
-	"encoding/base64"
 	"fmt"
+	"github.com/cristalhq/base64"
 	"io"
 	"sync"
 

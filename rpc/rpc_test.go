@@ -18,7 +18,7 @@
 package rpc
 
 import (
-	stdjson "encoding/json"
+	stdjson "github.com/goccy/go-json"
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"

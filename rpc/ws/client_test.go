@@ -19,15 +19,15 @@ package ws
 
 import (
 	"context"
-	"encoding/base64"
 	"fmt"
+	"github.com/cristalhq/base64"
 	"net/http"
 	"os"
 	"testing"
 	"time"
 
-	"github.com/gagliardetto/solana-go"
-	"github.com/gagliardetto/solana-go/text"
+	"github.com/rubby-c/solana-go"
+	"github.com/rubby-c/solana-go/text"
 	"github.com/stretchr/testify/require"
 	"go.uber.org/zap"
 )

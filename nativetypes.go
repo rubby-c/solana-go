@@ -19,8 +19,8 @@ package solana
 
 import (
 	"crypto/ed25519"
-	"encoding/base64"
 	"fmt"
+	"github.com/cristalhq/base64"
 	"io"
 
 	bin "github.com/gagliardetto/binary"

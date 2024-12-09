@@ -15,7 +15,7 @@
 package zapbox
 
 import (
-	"encoding/base64"
+	"github.com/cristalhq/base64"
 	"math"
 	"os"
 	"path"

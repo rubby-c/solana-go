@@ -4,9 +4,9 @@ package jsonrpc
 import (
 	"bytes"
 	"context"
-	stdjson "encoding/json"
 	"errors"
 	"fmt"
+	stdjson "github.com/goccy/go-json"
 	"net/http"
 	"reflect"
 	"sync/atomic"

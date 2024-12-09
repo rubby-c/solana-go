@@ -1,11 +1,13 @@
-module github.com/gagliardetto/solana-go
+module github.com/rubby-c/solana-go
 
 go 1.19
 
 require (
+	github.com/cristalhq/base64 v0.1.2
 	github.com/gagliardetto/binary v0.8.0
 	github.com/gagliardetto/gofuzz v1.2.2
 	github.com/gagliardetto/treeout v0.1.4
+	github.com/goccy/go-json v0.10.3
 	github.com/google/uuid v1.6.0
 )
 

@@ -15,7 +15,7 @@
 package solana
 
 import (
-	"encoding/base64"
+	"github.com/cristalhq/base64"
 	"strconv"
 	"testing"
 

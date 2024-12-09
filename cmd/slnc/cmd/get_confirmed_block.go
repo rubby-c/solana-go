@@ -19,8 +19,7 @@ package cmd
 
 import (
 	"context"
-	"encoding/json"
-	"fmt"
+	"github.com/goccy/go-json"
 	"strconv"
 
 	"github.com/spf13/cobra"

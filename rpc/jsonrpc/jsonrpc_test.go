@@ -2,8 +2,8 @@ package jsonrpc
 
 import (
 	"context"
-	stdjson "encoding/json"
 	"fmt"
+	stdjson "github.com/goccy/go-json"
 	"io/ioutil"
 	"net/http"
 	"net/http/httptest"

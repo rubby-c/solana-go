@@ -18,7 +18,7 @@
 package solana
 
 import (
-	"encoding/base64"
+	"github.com/cristalhq/base64"
 	"testing"
 
 	bin "github.com/gagliardetto/binary"

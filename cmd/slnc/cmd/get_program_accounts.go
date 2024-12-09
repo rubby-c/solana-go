@@ -18,13 +18,12 @@
 package cmd
 
 import (
-	"encoding/json"
 	"fmt"
 	"os"
 
-	"github.com/gagliardetto/solana-go/text"
+	"github.com/rubby-c/solana-go/text"
 
-	"github.com/gagliardetto/solana-go"
+	"github.com/rubby-c/solana-go"
 
 	"github.com/spf13/cobra"
 )

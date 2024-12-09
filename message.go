@@ -18,13 +18,13 @@
 package solana
 
 import (
-	"encoding/base64"
 	"fmt"
+	"github.com/cristalhq/base64"
 
 	bin "github.com/gagliardetto/binary"
 	"github.com/gagliardetto/treeout"
 
-	"github.com/gagliardetto/solana-go/text"
+	"github.com/rubby-c/solana-go/text"
 )
 
 type MessageAddressTableLookupSlice []MessageAddressTableLookup

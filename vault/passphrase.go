@@ -16,8 +16,8 @@ package vault
 
 import (
 	crypto_rand "crypto/rand"
-	"encoding/base64"
 	"fmt"
+	"github.com/cristalhq/base64"
 	"io"
 
 	"golang.org/x/crypto/nacl/secretbox"
